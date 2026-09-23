@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120d18">
+  <title>For Azhagiii — From Vathzzz 🤍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="eyebrow">A tiny place on the internet • made just for you</div>
+      <h1>Hey, <span>Azhagiii</span>... 🤍</h1>
+      <p class="hero-copy">
+        I didn't know exactly what to write.<br>
+        So I decided to make something instead.
+      </p>
+      <p class="tiny-note">— made with a little too much care by Vathzzz 🫠</p>
+      <button class="primary-btn" onclick="scrollToSection('story')">Open this little thing <span>♡</span></button>
+      <div class="scroll-hint">scroll slowly ↓</div>
+    </section>
+
+    <section class="section" id="story">
+      <div class="section-tag">01 · just the beginning</div>
+      <h2>Our story isn't a long one...</h2>
+      <div class="letter-card reveal">
+        <p>And I actually like that.</p>
+        <p>
+          We just started. There aren't years of memories here,
+          no hundreds of pictures, no perfectly written story...
+          just a beginning.
+        </p>
+        <p>
+          Two people getting to know each other a little more,
+          one conversation at a time.
+        </p>
+        <p class="highlight">
+          Maybe some of the most beautiful things don't need to
+          start with a big moment. Maybe they can simply... start. 🤍
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="you">
+      <div class="section-tag">02 · the simple answer</div>
+      <h2>What do I like about you?</h2>
+      <p class="section-intro">Honestly... it's not one particular thing.</p>
+
+      <div class="memory-grid">
+        <article class="love-card reveal">
+          <div class="card-icon">♡</div>
+          <h3>You being you</h3>
+          <p>
+            This one is probably the simplest.
+            I like you for being yourself.
+            You don't have to become someone else to be special.
+          </p>
+        </article>
+
+        <article class="love-card reveal">
+          <div class="card-icon">✦</div>
+          <h3>Your little things</h3>
+          <p>
+            The small things you probably don't even think twice about...
+            somehow, I notice them. And somehow, they stay with me.
+          </p>
+        </article>
+
+        <article class="love-card reveal">
+          <div class="card-icon">☾</div>
+          <h3>The person behind it all</h3>
+          <p>
+            I don't want to know only the easy, happy version of you.
+            I want to slowly understand the real you — at your own pace.
+          </p>
+        </article>
+
+        <article class="love-card reveal">
+          <div class="card-icon">∞</div>
+          <h3>No perfect version needed</h3>
+          <p>
+            You don't have to be perfect around me.
+            You can simply be you... and that's more than enough.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section interactive" id="question">
+      <div class="section-tag">03 · very important question 👀</div>
+      <h2>One serious question, Azhagiii...</h2>
+      <p class="section-intro">Who is more annoying? 😂</p>
+
+      <div class="choice-box">
+        <button class="choice" onclick="answer('me')">Obviously Vathzzz 😌</button>
+        <button class="choice" onclick="answer('you')">Definitely Azhagiii 😭</button>
+        <button class="choice" onclick="answer('both')">Both are equally gone 😂</button>
+      </div>
+      <div id="answer" class="answer" aria-live="polite"></div>
+    </section>
+
+    <section class="section dream" id="wish">
+      <div class="section-tag">04 · a small wish</div>
+      <h2>For the life you want...</h2>
+
+      <div class="wish-card reveal">
+        <div class="moon">☾</div>
+        <p>
+          I don't know what your future is going to look like,
+          and I don't want to decide it for you.
+        </p>
+        <p>
+          I just hope life gives you the happiness you deserve...
+          the kind where you can be yourself, chase what matters to you,
+          laugh without thinking too much, and feel peaceful with the people
+          who make your heart feel at home.
+        </p>
+        <p class="highlight">
+          And if someday I happen to be one of those people...
+          I'd be really happy. 🫠
+        </p>
+      </div>
+    </section>
+
+    <section class="section slow" id="no-pressure">
+      <div class="section-tag">05 · no rush</div>
+      <h2>There is no deadline for this.</h2>
+
+      <div class="quote">
+        <span class="quote-mark">“</span>
+        <p>
+          I don't want this to be something you have to figure out
+          immediately.
+        </p>
+        <p>
+          I don't want you to feel pressured to give an answer,
+          become someone different, or have everything perfectly clear.
+        </p>
+        <p>
+          Let's just let things happen naturally...
+          understand each other,
+          laugh a little,
+          annoy each other a lot,
+          and see where this little story takes us.
+        </p>
+        <span class="quote-end">”</span>
+      </div>
+    </section>
+
+    <section class="section final-letter" id="letter">
+      <div class="section-tag">06 · one last thing</div>
+      <h2>From me, to you.</h2>
+
+      <div class="final-card reveal">
+        <p class="handwritten">Azhagiii...</p>
+        <p>
+          I know this is just a website.
+          A few words on a screen.
+          Nothing too grand.
+        </p>
+        <p>
+          But every word here came from something simple:
+          <strong>I genuinely like having you in my life.</strong>
+        </p>
+        <p>
+          I like the conversations.
+          I like the little moments.
+          I like getting to know you.
+          And I like the person you are without needing you to be anything more.
+        </p>
+        <p>
+          I don't know exactly what tomorrow looks like.
+          Maybe nobody really does.
+        </p>
+        <p>
+          But for today...
+          I'm just happy that this little “us” has started.
+        </p>
+        <p class="highlight big">
+          Let's not rush it.<br>
+          Let's not force it.<br>
+          Let's just make it genuine. 🤍
+        </p>
+        <p class="signature">— Vathzzz 🫠</p>
+      </div>
+    </section>
+
+    <section class="ending">
+      <div class="tiny-heart">♡</div>
+      <h2>Okayyy, that's enough Vathzzz for one day. 😂</h2>
+      <p>
+        But if this made you smile even once...
+        then this little website did exactly what I wanted. 🤍
+      </p>
+      <button class="primary-btn" onclick="makeHearts()">One last click? 👀</button>
+      <p class="footer-note">Made with genuine feelings, not perfect words.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
